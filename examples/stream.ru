@@ -14,7 +14,7 @@ class Stream < Sinatra::Base
     content_type :txt
 
     stream do |out|
-      out << "It's gonna be legen -\n"
+      out << "\n It's gonna be legen -\n"
       sleep 0.5
       out << " (wait for it) \n"
       sleep 1
