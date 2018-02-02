@@ -2,6 +2,6 @@
 require 'sinatra'
 get('/') { 'this is a simple app' }
 
-get('/hello/') { 'hello world' }
+get('/hello') { 'hello world' }
 
-get('/hello1/') { 'hello world1' }
+get('/hello1') { 'hello world1' }
